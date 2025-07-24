@@ -1,0 +1,22 @@
+* {
+    color: red;
+}
+
+.heading {
+    color: #6786e0; /*HexCode*/
+}
+
+#middle {
+    color: rgb(184, 103, 224);  /*RGB intensities*/
+}
+
+h1,p {   /* this is called Grouping of selectors ,
+    we can group all possible combination of idSelector,tagSelector,classSelector*/
+    font-size: xx-large;
+}
+body {
+    background-color: aliceblue;
+    background-image: url(https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=);
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
