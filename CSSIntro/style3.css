@@ -12,6 +12,7 @@ html {
     width: 400px;
     height: 50px;
     margin-bottom: 5px;
+    background-color: aqua !important;  /*important keyword is used to no others can override this tag*/
 }
 
 #div2 {
@@ -28,4 +29,7 @@ html {
     margin-bottom: 5px;
     width: 200px;
     height: 40px;
+}
+#div1 {
+    background-color: blue;
 }

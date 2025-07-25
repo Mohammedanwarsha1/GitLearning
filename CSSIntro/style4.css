@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    background-attachment: fixed;   /*this is for parallax effect*/
+    background-size: contain;
+}
+
+.section-light {
+    background: color #f4f4f4;;
+    color: #0f0f0f;
+}
+.section-dark {
+    background-color: #282e34;
+    color: white;
+}
+.first-image {
+    background-image: url(images/andrea-cau-nV7GJmSq3zc-unsplash.jpg);
+    min-height: 500px;
+    opacity: 0.9;
+}
+.second-image {
+    background-image: url(images/henning-witzel-ukvgqriuOgo-unsplash.jpg);
+    min-height: 500px;
+}
+.third-image {
+    background-image: url(images/pedro-lastra-Nyvq2juw4_o-unsplash.jpg);
+    min-height: 500px;
+}
